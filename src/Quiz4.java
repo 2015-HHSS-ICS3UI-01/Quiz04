@@ -22,6 +22,7 @@ public class Quiz4 {
         //assign total calorie count to variable "totalCal"
         int totalCal = 0;
 
+        
         //ask user to choose a burger
         System.out.println("Choose a Burger:");
         //assign burger choice to variable "burger"
@@ -41,8 +42,9 @@ public class Quiz4 {
             totalCal = 0;
         }
 
+        
+        
         System.out.println("Choose a Side: ");
-
         int side = input.nextInt();
 
         if (side > 4 || side < 1) {
@@ -57,9 +59,10 @@ public class Quiz4 {
         } else if (side == 4) {
             totalCal = totalCal + 0;
         }
-
+        
+        
+        
         System.out.println("Choose a Drink: ");
-
         int drink = input.nextInt();
 
         if (drink > 4 || drink < 1) {
@@ -75,8 +78,10 @@ public class Quiz4 {
             totalCal = totalCal + 0;
         }
 
+        
+        
+        
         System.out.println("Choose a Dessert: ");
-
         int dessert = input.nextInt();
 
         if (dessert > 4 || dessert < 1) {
@@ -91,6 +96,9 @@ public class Quiz4 {
         } else if (dessert == 4) {
             totalCal = totalCal + 0;
         }
+        
+        
+        
         //display total calorie count
         System.out.println("Total calorie count for this meal: " + totalCal);
 
