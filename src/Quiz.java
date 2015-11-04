@@ -125,6 +125,11 @@ public class Quiz {
         //tell user their total calorie count
         
         System.out.println("Your calorie count is " + calories);
+        
+        
+        //close scanner
+        
+        input.close();
         }}
         
 
