@@ -68,6 +68,5 @@ public class Quiz04 {
          int calorieTotal = burger + sideOrder + drink + dessert;
          System.out.println("Your total Calorie count is " + calorieTotal + ".");
          
-         
     }
 }
