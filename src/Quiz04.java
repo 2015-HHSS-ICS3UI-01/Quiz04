@@ -18,10 +18,10 @@ public class Quiz04 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int burger;
-        int drink;
-        int side;
-        int desert;
+        int burger;//int for burger
+        int drink;//int for drink
+        int side;//int for side
+        int desert;//int for desert
         
         Scanner input = new Scanner(System.in);//scanner for the code
         System.out.println("Please input the number of the burger you want");//output this onto the screen
